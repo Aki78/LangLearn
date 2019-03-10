@@ -5,4 +5,4 @@ Where are you from?
 Mistä oot kotoisin?
 
 What is your phone number?
-Mikä sinun puherinumerosi?
+Mikä on sinun puhelinnumerosi?
