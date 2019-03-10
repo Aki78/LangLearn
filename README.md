@@ -1,2 +1,2 @@
 # LangLearn
-Learning Sentences
+Learning sentences for other languages
