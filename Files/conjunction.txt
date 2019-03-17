@@ -2,7 +2,7 @@ I am home, when you come back.
 Olen kotona, @kun tulet takaisin
 
 Think before you answer.
-Ajatelle @ennen kuin vastaat
+Ajattele @ennen kuin vastaat
 
 I will wait here until you come back.
 Odotan tässä, @kunnes sinä tulet
@@ -19,7 +19,7 @@ Even though mother is sick, he leaves to work.
 I stay home, because I am sick.
 Jään kotiin @siksi, että olen sairas
 
-I am different than you.
+He am different than you.
 Hän on erililainen @kuin sinä
 
 She is a doctor, as we know.

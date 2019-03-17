@@ -1,6 +1,6 @@
 import PySimpleGUI as sg      
 
-layout = [[sg.Text('Click read to ___ the input value',key='text')],      
+layout = [[sg.Text('Click read to ___ the\n input value',key='text')],      
           [sg.Input()],      
           [sg.RButton('Read',bind_return_key = True) , sg.Exit()]]      
 
