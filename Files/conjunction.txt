@@ -2,7 +2,7 @@ I am home, when you come back.
 Olen kotona, @kun tulet takaisin
 
 Think before you answer.
-Ajattele @ennen kuin vastaat
+Ajattele @ennen_kuin vastaat
 
 I will wait here until you come back.
 Odotan tässä, @kunnes sinä tulet
@@ -17,7 +17,7 @@ Even though mother is sick, he leaves to work.
 @Vaikka äiti on sairas, hän lähtee työhön
 
 I stay home, because I am sick.
-Jään kotiin @siksi, että olen sairas
+Jään kotiin @siksi,_että olen sairas
 
 He am different than you.
 Hän on erililainen @kuin sinä
@@ -29,7 +29,7 @@ Be quiet so that the baby doesn't wake up.
 Ole hiljaa, @jotta vauva ei herää.
 
 It is six, so I can leave.
-Kello on kuusi @niin, että voin lähteä
+Kello on kuusi @niin,_että voin lähteä
 
 You are young, so you have time to learn.
 Olet @niin nuori, että on aikaa oppia

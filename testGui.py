@@ -1,4 +1,5 @@
 import sys
+import random
 import os
 import PySimpleGUI as sg      
 from gtts import gTTS
@@ -9,6 +10,7 @@ results = []
 counter = 0
 outerCounter = 0
 correctWord = ""
+count = 0
 
 layout = [[sg.Text('Start by pressing Read', font = ("Helvetica", 15) ,size = (80,1),key='text1')],      
           [sg.Text('', font = ("Helvetica", 15),text_color = "Magenta", size = (80,1),key='text2')],      
@@ -28,12 +30,14 @@ with open('Files/conjunction.txt') as inputfile:
 counter = 0
 while True:
     event, values = window.Read()      
-    for count in range(len(results)//3):
+#    for count in range(len(results)//3):
+    while True:
+        count = random.randint(0, len(results)//3 - 1)
         EnLine = results[count * 3]
-        FiLine = results[count * 3 + 1]
+        FiLine = results[count * 3 + 1].copy()
         for x in range(len(FiLine)):
             if '@' in FiLine[x]:
-                correctWord = FiLine[x]
+                correctWord = FiLine[x].replace("_"," ")
                 FiLine[x] = "____"
         newLineEn = " ".join(x for x in EnLine) 
         newLineFi = " ".join(x for x in FiLine)
@@ -45,16 +49,12 @@ while True:
             window.FindElement('text1').Update(newLineEn)
             window.FindElement('text2').Update(newLineFi)
             event, values = window.Read()      
-            print(values)
-            print(correctWord)
             if correctWord.replace("@","") == values[0]:
                 itIsTrue = False
                 mixer.music.load("Sounds/Correct.mp3")
                 mixer.music.play()
                 window.FindElement('text3').Update(' ')
             else:
-#                mixer.music.load("Sounds/Wrong.mp3")
-#                mixer.music.play()
                 window.FindElement('text3').Update(correctWord)
             soundFile =  "Sounds/text" + str(count*3 + 1) +".mp3"
             os.system( "mpg321 " + soundFile )
