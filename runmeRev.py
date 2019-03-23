@@ -23,7 +23,7 @@ window = sg.Window('Fill in alaviivia').Layout(layout)
 
 with open('Files/' + filename) as inputfile:
     for line in inputfile:
-        if (counter % 3) == 1: #
+        if (counter % 3) == 0: #
             tts = gTTS(text=line.replace("@", "").replace("_", " "), lang='fi') #
             tts.save("Sounds/text" + str(counter) + ".mp3") #
         results.append(line.strip().split(' '))
@@ -39,6 +39,8 @@ while True:
         myNumList = list(range(len(results)//3 + 1))
         while myNumList != []:
             count = random.choice(myNumList)
+            soundFile =  "Sounds/text" + str(count*3 ) +".mp3"
+            os.system( "mpg321 " + soundFile )
             print(myNumList)
             print(count)
             if count in myNumList:
@@ -66,8 +68,6 @@ while True:
                     window.FindElement('text3').Update(' ')
                 else:
                     window.FindElement('text3').Update(correctWord)
-                soundFile =  "Sounds/text" + str(count*3 + 1) +".mp3"
-                os.system( "mpg321 " + soundFile )
     if event is None or event == 'Exit':      
         break
 
