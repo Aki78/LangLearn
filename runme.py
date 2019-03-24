@@ -12,11 +12,7 @@ outerCounter = 0
 correctWord = ""
 count = 0
 
-<<<<<<< HEAD
 filename = "someone.txt"
-=======
-filename = "something.txt"
->>>>>>> 3532fb64054a251cbb4ad635bdd621be8f880465
 
 layout = [[sg.Text('Start by pressing Read', font = ("Helvetica", 25) ,size = (40,1),key='text1')],      
           [sg.Text('', font = ("Helvetica", 25),text_color = "Magenta", size = (40,1),key='text2')],      
