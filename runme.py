@@ -12,11 +12,11 @@ outerCounter = 0
 correctWord = ""
 count = 0
 
-filename = "somethingRev.txt"
+filename = "something.txt"
 
-layout = [[sg.Text('Start by pressing Read', font = ("Helvetica", 15) ,size = (40,1),key='text1')],      
-          [sg.Text('', font = ("Helvetica", 15),text_color = "Magenta", size = (40,1),key='text2')],      
-          [sg.Input(size = (60,1)),],      
+layout = [[sg.Text('Start by pressing Read', font = ("Helvetica", 25) ,size = (40,1),key='text1')],      
+          [sg.Text('', font = ("Helvetica", 25),text_color = "Magenta", size = (40,1),key='text2')],      
+          [sg.Input(size = (60,1), font = ("Helvetica", 30))],      
           [sg.RButton('Read',bind_return_key = True) , sg.Exit()],
           [sg.Text(' ',size = (40,1),text_color = 'Red',font=("Helvetica",25) , key='text3')]]
 window = sg.Window('Fill in alaviivia').Layout(layout)      
@@ -48,7 +48,7 @@ while True:
             for x in range(len(FiLine)):
                 if '@' in FiLine[x]:
                     correctWord = FiLine[x].replace("_", " ")
-                    FiLine[x] = "____"
+                    FiLine[x] = "______"
             newLineEn = " ".join(x for x in EnLine) 
             newLineFi = " ".join(x for x in FiLine)
 
