@@ -12,7 +12,7 @@ outerCounter = 0
 correctWord = ""
 count = 0
 
-filename = "somethingRev.txt"
+filename = sys.argv[1]  # "somethingRev.txt"
 
 layout = [[sg.Text('Start by pressing Read', font = ("Helvetica", 15) ,size = (40,1),key='text1')],      
           [sg.Text('', font = ("Helvetica", 15),text_color = "Magenta", size = (40,1),key='text2')],      

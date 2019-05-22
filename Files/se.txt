@@ -1,35 +1,35 @@
-se (主)
+se (nom.)
 @se
 
-se (属)
+se (gen.)
 @sen
 
-se (分)
+se (part.)
 @sitä
 
-se (内)
+se (-ssa)
 @siinä
 
-se (出)
+se (-sta)
 @siitä
 
-se (入)
+se (-hin)
 @siihen
 
-se (接)
+se (-lla)
 @sillä
 
-se (奪)
+se (-lta)
 @siltä
 
-se (向)
+se (-lle)
 @sille
 
-se (様)
+se (-na)
 @sinä
 
-se (変)
+se (-ksi)
 @siksi
 
-se (複主)
+se (t-mon)
 @ne
