@@ -1,0 +1,35 @@
+se (主)
+@se
+
+se (属)
+@sen
+
+se (分)
+@sitä
+
+se (内)
+@siinä
+
+se (出)
+@siitä
+
+se (入)
+@siihen
+
+se (接)
+@sillä
+
+se (奪)
+@siltä
+
+se (向)
+@sille
+
+se (様)
+@sinä
+
+se (変)
+@siksi
+
+se (複主)
+@ne
