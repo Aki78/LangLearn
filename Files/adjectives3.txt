@@ -1,0 +1,50 @@
+thick think
+@paksu_ohut
+
+full empty
+@täysi_tyhjä
+
+expensive cheap
+@kallis_halpa
+
+hard easy
+@vaikea_helppo
+
+rich poor
+@rikas_köyhä
+
+dry wet
+@kuiva_märkä
+
+light dark
+@valoisa_pimeä
+
+upset calm
+@vihainen_rauhallinen
+
+messy organized
+@sotkuinen_siisti
+
+soft hard
+@pehmeä_kova
+
+heavy light
+@raskas_kevyt
+
+slow fast
+@hidas_nopea
+
+sour sweet
+@hapan_makea
+
+fun booring
+@hauska_tylsä
+
+smart stupid
+@viisas_tyhmä
+
+hard_working laizy
+@ahkera_laiska
+
+strong weak
+@vahva_heikko
